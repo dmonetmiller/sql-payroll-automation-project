@@ -1,11 +1,9 @@
 USE [master]
 GO
-/****** Object:  Database [PayrollDB]    Script Date: 5/8/2026 10:24:52 AM ******/
 CREATE DATABASE [PayrollDB]
 GO
 USE [PayrollDB]
 GO
-/****** Object:  Table [dbo].[Employees]    Script Date: 5/8/2026 10:24:53 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -21,7 +19,6 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[HoursWorked]    Script Date: 5/8/2026 10:24:53 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
