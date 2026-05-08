@@ -23,4 +23,5 @@ The database stores employee payroll information and hours worked data to demons
 
 ## Screenshot
 Database tables created in SSMS:
+
 ![Payroll Tables](payrolldb-tables.jpg)
